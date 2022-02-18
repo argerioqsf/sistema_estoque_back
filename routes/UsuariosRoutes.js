@@ -7,4 +7,9 @@ router.post('/', usuarioController.cadastrar);
 //listar usuarios
 router.get('/', usuarioController.listar);
 
+//logar usuarios
+
+//editar usuarios
+router.put('/', usuarioController.editar);
+
 module.exports = router
